@@ -1,0 +1,34 @@
+list:
+.append(item)
+.extend(another_list)
+.sort(sort_function)
+.remove(item)
+.insert(index, item)
+
+dict:
+.get(key)
+.update(kv)
+.items()
+.keys()
+.values()
+
+tuple:
+name, age, gender = 'Ella', 21, 'Female'
+a, b = b, a
+func_result, error = function()
+for index, value in enumerate(list)
+('a', 'b', 'c') + ('d', 'e', 'f')
+
+set:
+.add(item)
+.remove(item)
+.issubset(another_set)
+.difference(another_set)
+.isdisjoint(another_set)
+
+str:
+.format(args)
+.split(divider_str)
+.join(str_list)
+.lower()
+.find(str)
